@@ -1,7 +1,8 @@
 {
   "name": "flashmatch-multiplayer-shared",
   "version": "1.0.0",
-  "types": "shared.d.ts",
+  "types": "shared.ts",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

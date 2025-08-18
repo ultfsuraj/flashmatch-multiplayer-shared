@@ -33,3 +33,5 @@ export type Events = {
     };
   };
 };
+
+export type Ack = { success: boolean; error?: string };

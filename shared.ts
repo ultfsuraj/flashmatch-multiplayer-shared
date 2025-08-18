@@ -16,6 +16,8 @@ export const Games = {
   },
 };
 
+type GameName = keyof typeof Games;
+
 export type Events = {
   playerJoined: {
     name: 'playerJoined';
@@ -27,7 +29,7 @@ export type Events = {
   joinRoom: {
     name: 'joinRoom';
     payload: {
-      gameName: string;
+      gameName: GameName;
       roomid: string;
       playerName: string;
     };

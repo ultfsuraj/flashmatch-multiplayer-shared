@@ -1,6 +1,7 @@
 {
   "name": "flashmatch-multiplayer-shared",
   "version": "1.0.0",
+  "main": "shared.js",
   "types": "shared.ts",
   "type": "module",
   "scripts": {

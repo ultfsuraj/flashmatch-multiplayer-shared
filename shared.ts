@@ -28,7 +28,7 @@ export type Events = {
   playerJoined: {
     name: 'playerJoined';
     payload: {
-      number: number;
+      order: number;
       playerName: string;
     };
   };

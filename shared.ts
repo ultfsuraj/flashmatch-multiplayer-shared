@@ -42,7 +42,7 @@ export type Events = {
   };
   makeMove: {
     name: 'makeMove';
-    payload: Object;
+    payload: object;
   };
 };
 

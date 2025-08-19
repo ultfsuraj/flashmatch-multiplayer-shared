@@ -44,6 +44,9 @@ export type Events = {
     name: 'makeMove';
     payload: object;
   };
+  exitRoom: {
+    name: 'exitRoom';
+  };
 };
 
 export type Ack = { success: boolean; order?: number; error?: string };

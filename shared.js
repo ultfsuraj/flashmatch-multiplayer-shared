@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Games = {
+exports.Games = void 0;
+exports.Games = {
     chess: {
         name: 'chess',
         minPlayers: 2,

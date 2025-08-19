@@ -18,6 +18,12 @@ export const Games = {
 
 type GameName = keyof typeof Games;
 
+export type Moves = {
+  chess: {};
+  colorWars: {};
+  ludo: {};
+};
+
 export type Events = {
   playerJoined: {
     name: 'playerJoined';
@@ -33,6 +39,10 @@ export type Events = {
       roomid: string;
       playerName: string;
     };
+  };
+  makeMove: {
+    name: 'makeMove';
+    payload: Object;
   };
 };
 

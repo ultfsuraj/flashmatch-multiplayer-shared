@@ -2,7 +2,9 @@
   "compilerOptions": {
     "declaration": true,
     "emitDeclarationOnly": false,
-    "target": "es2019",
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "module": "esnext",
     "esModuleInterop": true,
     "moduleResolution": "node",
     "strict": true

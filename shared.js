@@ -1,4 +1,6 @@
-export const Games = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Games = {
     chess: {
         name: 'chess',
         minPlayers: 2,

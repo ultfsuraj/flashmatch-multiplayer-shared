@@ -1,4 +1,4 @@
-export const Games = {
+const Games = {
   chess: {
     name: 'chess',
     minPlayers: 2,

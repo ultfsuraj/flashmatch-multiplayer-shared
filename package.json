@@ -1,11 +1,17 @@
 {
   "name": "flashmatch-multiplayer-shared",
   "version": "1.0.0",
-  "main": "shared.js",
+  "exports": {
+    "require": "./dist/cjs/index.js",
+    "import": "./dist/esm/index.js"
+  },
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
   "types": "shared.ts",
-  "type": "commonjs",
   "scripts": {
-    "build": "tsc shared.ts"
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build": "npm run build:cjs && npm run build:esm"
   },
   "repository": {
     "type": "git",

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "shared.js",
   "types": "shared.ts",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "build": "tsc shared.ts"
   },

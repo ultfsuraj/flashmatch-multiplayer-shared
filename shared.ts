@@ -46,7 +46,11 @@ export type Events = {
   };
   exitRoom: {
     name: 'exitRoom';
-    payload: Events['joinRoom']['payload'];
+    payload: {
+      gameName: GameName;
+      roomid: string;
+      playerName: string;
+    };
   };
 };
 

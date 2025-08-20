@@ -47,7 +47,7 @@ export type Events = {
   syncGameState: {
     name: 'syncGameState';
     payload: {
-      lastUpdated: 'number';
+      lastUpdated: number;
       state: object;
     };
   };

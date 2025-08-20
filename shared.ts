@@ -1,3 +1,5 @@
+export const TimeOut = 300000;
+
 export const Games = {
   chess: {
     name: 'chess',

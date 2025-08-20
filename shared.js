@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Games = void 0;
+exports.Games = exports.TimeOut = void 0;
+exports.TimeOut = 300000;
 exports.Games = {
     chess: {
         name: 'chess',

@@ -44,6 +44,13 @@ export type Events = {
     name: 'makeMove';
     payload: object;
   };
+  syncGameState: {
+    name: 'syncGameState';
+    payload: {
+      lastUpdated: 'number';
+      state: object;
+    };
+  };
   exitRoom: {
     name: 'exitRoom';
     payload: {

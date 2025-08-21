@@ -53,13 +53,6 @@ export type Events = {
       state: object;
     };
   };
-  syncPlayerName: {
-    name: 'syncPlayerName';
-    payload: {
-      order: number;
-      playerName: string;
-    };
-  };
   exitRoom: {
     name: 'exitRoom';
     payload: {
